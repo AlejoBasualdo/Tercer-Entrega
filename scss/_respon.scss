@@ -1,45 +1,34 @@
 /* Vista Tablet 768-1023 */
-
-@media (max-width:1023){
+@media (max-width: 600) {
     /* Header */
-    .encabezado{
-        height: auto;
-        flex-direction: column;
-        text-align: center;
+    .encabezado {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
     }
-    
-    .encabezado .boton{
-        display: none;
+    .encabezado .boton {
+      display: none;
     }
-
     /*Banner*/
-    .bannerContenido p{
-    font-size: 2.5rem;}
-
-    /*Destinos*/
-    .destinos{
-        margin: 5vh;
-        font-size: 2rem;
+    .bannerContenido p {
+      font-size: 2.5rem;
     }
-    
-    .destinos h3, .destinos p{
-        font-size: inherit;
+    .contenedorcsgo {
+      grid-template-columns: 1fr 1fr;
     }
-
-    .contenedorcsgo{
-        grid-template-columns: 1fr 1fr;
-    }
-     
     /*Footer*/
-    .Pie{
-        flex-direction: column;
-        text-align: center;
+    .Pie {
+      width: auto;
+      height: auto;
+      flex-direction: column;
+      text-align: center;
     }
-}
-
-    @media (max-width:768){
-
-        .contenedorcsgo{
-            grid-template-columns: 1fr;
-        }
+  }
+  @media (max-width: 768) {
+    .contenedorcsgo {
+      grid-template-columns: 1fr;
+    }
+  }
+    .historiaqs{
+      width: auto;
     }

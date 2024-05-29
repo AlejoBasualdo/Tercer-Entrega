@@ -1,111 +1,73 @@
 /* Footer */
 
-.Pie {
+.footer {
+  position: relative;
   width: 100%;
-  background-color: black;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .grupo1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 45px 0;
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
 
-    .box {
-      figure {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.icon-elem {
+  list-style: none;
+}
 
-        img {
-          width: 250px;
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
 
-          &:hover {
-            transform: scale(1.2);
-          }
-        }
-      }
-
-      h2 {
-        color: white;
-        margin-bottom: 25px;
-        font-size: 20px;
-        border-bottom: solid aqua 2px;
-        display: inline-block;
-
-        &:hover {
-          transform: scale(1.2);
-          color: skyblue;
-        }
-      }
-
-      p {
-        color: white;
-        margin-bottom: 10px;
-      }
-    }
-
-    .redes a {
-      display: inline-block;
-      text-decoration: none;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      color: #fff;
-      margin-right: 10px;
-      background-color: rgb(36, 32, 32);
-      text-align: center;
-      transition: all 300ms ease;
-
-      &:hover {
-        color: skyblue;
-        transform: scale(1.2);
-      }
-    }
-
-    .links {
-      ul li a {
-        text-decoration: none;
-        display: block;
-        margin-bottom: 10px;
-        color: white;
-
-        &:hover {
-          color: skyblue;
-          transform: scale(1.2);
-        }
-      }
-
-      h3 {
-        margin-top: 15px;
-        color: white;
-        margin-bottom: 13px;
-        border-bottom: solid aqua 2px;
-        display: inline-block;
-
-        &:hover {
-          transform: scale(1.2);
-          color: skyblue;
-        }
-      }
-    }
+  &:hover {
+    transform: translateY(-10px);
   }
+}
 
-  .grupo2 {
-    small {
-      font-size: 15px;
-      display: block;
-      margin-bottom: 15px;
-      transition: all;
-    }
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
 
-    background-color: 0a1a2a;
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
+.menu-elem {
+  list-style: none;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 1;
   }
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }

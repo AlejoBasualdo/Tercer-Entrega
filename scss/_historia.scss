@@ -1,142 +1,77 @@
 /* Historia */
 
-.carousel {
-  width: 70%;
-  padding: auto;
-  margin: auto;
-
-  img {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-}
-
 .historiaqs {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/wwin.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-
-  img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
-
-  h4 {
-    position: absolute;
-    color: white;
-    top: 24%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 
   h3 {
-    position: absolute;
-    color: white;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #7e097e;
+    background-color: #2fb4cc;
   }
 }
 
 .historiaddv {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/fran.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-
-  img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
-
-  h4 {
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 
   h3 {
-    position: absolute;
-    color: white;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #7e097e;
+    background-color: #2fb4cc;
   }
 }
 
 .historiade {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/obelis.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-
-  img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
-
-  h4 {
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 
   h3 {
-    position: absolute;
-    color: white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #7e097e;
+    background-color: #2fb4cc;
   }
 }
 
 .historiaadv {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/marti.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-
-  img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
-
-  h4 {
-    position: absolute;
-    color: white;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 
   h3 {
-    position: absolute;
-    color: white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #7e097e;
+    background-color: #2fb4cc;
   }
 }
-

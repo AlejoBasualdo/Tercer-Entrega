@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  background-color: violet;
+  background-color: #9e9e9e;
 }
 .encabezado h1 {
   text-transform: uppercase;
@@ -13,7 +13,7 @@
 }
 
 .violeta {
-  color: #3600389d;
+  color: #9973ff;
 }
 
 .boton {
@@ -126,7 +126,6 @@
 .tarjeta img {
   max-width: 1000px;
 }
-
 .tarjeta p {
   margin: 10px 0;
   text-align: center;
@@ -248,121 +247,76 @@
 }
 
 /* Historia */
-
 .historiaqs {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/wwin.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-}
-.historiaqs img {
-  width: 100%;
-  height: 100%;
   align-items: center;
-}
-.historiaqs h4 {
-  position: absolute;
-  color: white;
-  top: 24%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 .historiaqs h3 {
-  position: absolute;
-  color: white;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #7e097e;
+  background-color: #2fb4cc;
 }
 
 .historiaddv {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/fran.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-}
-.historiaddv img {
-  width: 100%;
-  height: 100%;
   align-items: center;
-}
-.historiaddv h4 {
-  position: absolute;
-  color: white;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 .historiaddv h3 {
-  position: absolute;
-  color: white;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #7e097e;
+  background-color: #2fb4cc;
 }
 
 .historiade {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/obelis.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-}
-.historiade img {
-  width: 100%;
-  height: 100%;
   align-items: center;
-}
-.historiade h4 {
-  position: absolute;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 .historiade h3 {
-  position: absolute;
-  color: white;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #7e097e;
+  background-color: #2fb4cc;
 }
 
 .historiaadv {
   width: 100%;
-  height: 100%;
-  border: 6px solid white;
-  position: relative;
-  text-align: center;
+  height: 70vh;
+  background-image: url(../images/marti.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
   justify-content: center;
-}
-.historiaadv img {
-  width: 100%;
-  height: 100%;
   align-items: center;
-}
-.historiaadv h4 {
-  position: absolute;
-  color: white;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 .historiaadv h3 {
-  position: absolute;
-  color: white;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #7e097e;
+  background-color: #2fb4cc;
 }
 
 /* Footer */
@@ -398,7 +352,6 @@
   margin: 0 10px;
   transition: 0.5s;
 }
-
 .icon:hover {
   transform: translateY(-10px);
 }
@@ -415,6 +368,7 @@
 .menu-elem {
   list-style: none;
 }
+
 .menu-icon {
   color: white;
   font-size: 20px;
@@ -424,7 +378,6 @@
   opacity: 0.5;
   transition: 0.3s;
 }
-
 .menu-icon:hover {
   opacity: 1;
 }
@@ -452,14 +405,6 @@
   .bannerContenido p {
     font-size: 2.5rem;
   }
-  /*Destinos*/
-  .destinos {
-    margin: 5vh;
-    font-size: 2rem;
-  }
-  .destinos h3, .destinos p {
-    font-size: inherit;
-  }
   .contenedorcsgo {
     grid-template-columns: 1fr 1fr;
   }
@@ -476,8 +421,8 @@
     grid-template-columns: 1fr;
   }
 }
-  .historiaqs{
-    width: auto;
-  }
+.historiaqs {
+  width: auto;
+}
 
 /*# sourceMappingURL=estilos.css.map */
