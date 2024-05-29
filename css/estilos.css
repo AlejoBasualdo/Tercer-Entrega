@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 /* Header */
 .encabezado {
   display: flex;
@@ -389,6 +392,66 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
+
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.card img{
+  margin-top: 15px;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+.card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 400px;
+}
+.card .card-body {
+  background-color: rgba(202, 202, 236, 0.582);
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .card-title {
+  font-size: 1.70rem;
+  color: black;
+  
+}
+.card h3 {
+  font-size: 20px;
+  color: rgb(67, 18, 201);
+  
+}
+.card .botones {
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+.card .botones:hover {
+  background-color: blueviolet;
+}
+
+
 
 /* Vista Tablet 768-1023 */
 @media (max-width: 600) {
