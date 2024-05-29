@@ -328,7 +328,7 @@ body{
   width: 100%;
   background: black;
   min-height: 100px;
-  padding: 20px 50px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -409,10 +409,10 @@ body{
   margin-top: auto;
 }
 .card img{
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .card:hover {
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 .card .card-img-top {
   border-top-left-radius: 15px;
