@@ -328,7 +328,6 @@ body{
   width: 100%;
   background: black;
   min-height: 100px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,7 +339,6 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 10px 5px;
   flex-wrap: wrap;
 }
 
@@ -352,7 +350,6 @@ body{
   color: white;
   font-size: 32px;
   display: inline-block;
-  margin: 0 10px;
   transition: 0.5s;
 }
 .icon:hover {
@@ -364,7 +361,6 @@ body{
   justify-content: center;
   position: relative;
   align-items: center;
-  margin: 10px 0;
   flex-wrap: wrap;
 }
 
@@ -377,7 +373,6 @@ body{
   font-size: 20px;
   display: inline-block;
   text-decoration: none;
-  margin: 5px 10px;
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -388,10 +383,10 @@ body{
 .text {
   color: white;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 10px;
+ 
   font-size: 20px;
 }
+
 
 
 .card a {
