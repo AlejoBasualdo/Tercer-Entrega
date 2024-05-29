@@ -1,0 +1,49 @@
+/* Header */
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+}
+
+.violeta {
+    color: #ffafff;
+}
+
+.boton {
+    background-color: violet;
+    color: #FAFAFA;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: aqua;
+        color: #FAFAFA;
+        cursor: pointer;
+    }
+}
+
+.encabezado li {
+    list-style-type: none;
+    display: inline-block;
+
+    a {
+        text-decoration: none;
+        margin: 10px;
+        color: black;
+        font-size: 1.5rem;
+
+        &:hover {
+            color: violet;
+        }
+    }
+}
