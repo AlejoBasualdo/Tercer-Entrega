@@ -15,12 +15,12 @@
   }
   
   .violeta {
-    color: #9973ff;
+   color: $color-violeta;
   }
   
   .boton {
-    background-color: violet;
-    color: #FAFAFA;
+    background-color: $color-violeta;
+    color: $color-blanco;
     font-weight: 700;
     border: none;
     padding: 10px 20px;
@@ -28,7 +28,7 @@
   
     &:hover {
       background-color: aqua;
-      color: #FAFAFA;
+      color: $color-blanco;
       cursor: pointer;
     }
   }
@@ -44,8 +44,7 @@
       font-size: 1.5rem;
   
       &:hover {
-        color: violet;
+        color: $color-violeta;
       }
     }
   }
-  

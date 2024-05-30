@@ -1,77 +1,78 @@
 /* Historia */
 
 .historiaqs {
-  width: 100%;
-  height: 70vh;
-  background-image: url(../images/wwin.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 10px;
-
-  h3 {
-    background-color: #2fb4cc;
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/wwin.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+    h3 {
+      background-color: #2fb4cc;
+    }
   }
-}
-
-.historiaddv {
-  width: 100%;
-  height: 70vh;
-  background-image: url(../images/fran.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 10px;
-
-  h3 {
-    background-color: #2fb4cc;
+  
+  .historiaddv {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/fran.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+    h3 {
+      background-color: #2fb4cc;
+    }
   }
-}
-
-.historiade {
-  width: 100%;
-  height: 70vh;
-  background-image: url(../images/obelis.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 10px;
-
-  h3 {
-    background-color: #2fb4cc;
+  
+  .historiade {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/obelis.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+    h3 {
+      background-color: #2fb4cc;
+    }
   }
-}
-
-.historiaadv {
-  width: 100%;
-  height: 70vh;
-  background-image: url(../images/marti.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 10px;
-
-  h3 {
-    background-color: #2fb4cc;
+  
+  .historiaadv {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/marti.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+    h3 {
+      background-color: #2fb4cc;
+    }
   }
-}
+  

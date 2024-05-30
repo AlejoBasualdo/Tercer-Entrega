@@ -4,30 +4,30 @@
     text-align: center;
     margin: 10vh;
     border-bottom: 1px solid black;
-
+  
     h3 {
-        color: blanchedalmond;
-        text-transform: uppercase;
-        padding: 10px;
+      color: blanchedalmond;
+      text-transform: uppercase;
+      padding: 10px;
     }
-
+  
     p {
-        font-size: 4rem;
-        color: #212121;
-        padding: 10px;
+      font-size: 4rem;
+      color: #212121;
+      padding: 10px;
     }
-}
-
-.contenedorcsgo {
+  }
+  
+  .contenedorcsgo {
     display: grid;
     grid-template-columns: repeat(3, 1fr) gap 20px;
-
+  
     img {
-        width: 1100px;
+      width: 1100px;
     }
-}
-
-.tarjeta {
+  }
+  
+  .tarjeta {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,27 +36,28 @@
     border: 1px solid #ccc;
     margin: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-
+  
     img {
-        max-width: 1000px;
+      max-width: 1000px;
     }
-
+  
     p {
-        margin: 10px 0;
-        text-align: center;
+      margin: 10px 0;
+      text-align: center;
     }
-
+  
     button {
-        background-color: rgba(196, 32, 196, 0.555);
-        color: #FAFAFA;
-        border: none;
-        padding: 10px 20px;
-        font-size: 1rem;
-        cursor: pointer;
-        margin-top: 10px;
+      background-color: rgba(196, 32, 196, 0.555);
+      color: $color-blanco;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
     }
-
+  
     buttin:hover {
-        background-color: aliceblue;
+      background-color: aliceblue;
     }
-}
+  }
+  
