@@ -1,0 +1,43 @@
+@media (max-width:1023){
+    /* Header */
+    .encabezado{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .encabezado .boton{
+        display: none;
+    }
+
+    /*Banner*/
+    .bannerContenido p{
+    font-size: 2.5rem;}
+
+    /*Destinos*/
+    .destinos{
+        margin: 5vh;
+        font-size: 2rem;
+    }
+    
+    .destinos h3, .destinos p{
+        font-size: inherit;
+    }
+
+    .contenedorcsgo{
+        grid-template-columns: 1fr 1fr;
+    }
+     
+    /*Footer*/
+    .Pie{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+    @media (max-width:768){
+
+        .contenedorcsgo{
+            grid-template-columns: 1fr;
+        }
+    }

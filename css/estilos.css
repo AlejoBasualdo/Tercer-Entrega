@@ -1,7 +1,6 @@
 /* Banner */
 .banner {
-  margin-bottom: 10px;
-  background-image: url(../images/9zfondo.webp);
+  background-image: url(../images/Bannerfondo.webp);
   height: calc(80vh - 100px);
   position: relative;
   display: flex;
@@ -27,14 +26,14 @@
   padding: 20px;
 }
 .bannerContenido h2 {
-  font-size: 2rem;
+  font-size: 1, 5rem;
   font-weight: bold;
   color: #FAFAFA;
   margin-bottom: 10px;
 }
 .bannerContenido p {
   color: #FAFAFA;
-  font-size: 4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -155,9 +154,6 @@
   color: black;
   font-size: 1.5rem;
 }
-.encabezado li a:hover {
-  color: #9973ff;
-}
 
 /* Historia */
 .historiaqs {
@@ -174,8 +170,8 @@
   flex-direction: column;
   margin-bottom: 10px;
 }
-.historiaqs h3 {
-  background-color: #2fb4cc;
+.historiaqs h3, .historiaqs h4 {
+  text-align: center;
 }
 
 .historiaddv {
@@ -192,8 +188,8 @@
   flex-direction: column;
   margin-bottom: 10px;
 }
-.historiaddv h3 {
-  background-color: #2fb4cc;
+.historiaddv h3, .historiaddv h4 {
+  text-align: center;
 }
 
 .historiade {
@@ -211,7 +207,8 @@
   margin-bottom: 10px;
 }
 .historiade h3 {
-  background-color: #2fb4cc;
+  text-align: center;
+  text-align: center;
 }
 
 .historiaadv {
@@ -229,66 +226,11 @@
   margin-bottom: 10px;
 }
 .historiaadv h3 {
-  background-color: #2fb4cc;
+  text-align: center;
+  text-align: center;
 }
 
-/* Noticia */
-.portafolio {
-  background: #FAFAFA;
-}
-
-.galeria-port {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.imagen-port {
-  width: 24%;
-  margin-bottom: 10px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-}
-.imagen-port > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.hover-galeria {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transform: scale(0);
-  background: hsla(273, 91%, 27%, 0.7);
-  transition: transform 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.hover-galeria img {
-  width: 50px;
-}
-.hover-galeria p {
-  color: #FAFAFA;
-}
-.hover-galeria a {
-  text-decoration: none;
-  color: #FAFAFA;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/*MediaQuerries*/
 /* Vista Tablet 768-1023 */
 @media (max-width: 600) {
   /* Header */
@@ -303,6 +245,10 @@
   /*Banner*/
   .bannerContenido p {
     font-size: 2.5rem;
+  }
+  /*Historia*/
+  .historiaq h3 {
+    font-size: 10px;
   }
   .contenedorcsgo {
     grid-template-columns: 1fr 1fr;
@@ -320,60 +266,9 @@
     grid-template-columns: 1fr;
   }
 }
-.historiaqs {
-  width: auto;
-}
-
-/* Rooster */
-.container-card {
-  width: 100%;
-  display: flex;
-  max-width: 1100px;
-  margin: auto;
-}
-
-.card {
-  width: 100%;
-  margin: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  transition: all 400ms ease-out;
-  cursor: default;
-}
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
-}
-.card img {
-  width: 100%;
-  height: 210px;
-}
-.card .contenido-card {
-  padding: 15px;
-  text-align: center;
-}
-.card .contenido-card h3 {
-  margin-bottom: 15px;
-  color: #7a7a7a;
-}
-.card .contenido-card p {
-  line-height: 1.8;
-  color: #6a6a6a;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-.card .contenido-card a {
-  display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #2fb4cc;
-  border: 1px solid #2fb4cc;
-  border-radius: 4px;
-  transition: all 400ms ease;
-  margin-bottom: 5px;
+/*navbar*/
+.navbar {
+  background: rgba(104, 189, 204, 0.7529411765);
 }
 
 /* Inicio */
@@ -394,6 +289,7 @@
 }
 
 .contenedorcsgo {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr) gap 20px;
 }
@@ -418,17 +314,84 @@
   margin: 10px 0;
   text-align: center;
 }
-.tarjeta button {
-  background-color: rgba(196, 32, 196, 0.555);
-  color: #FAFAFA;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 10px;
+
+/* Inicio Debajo */
+.portafolio {
+  background: black;
 }
-.tarjeta buttin:hover {
-  background-color: aliceblue;
+
+.galeria-port {
+  margin-top: spx;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.imagen-port {
+  width: 24%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+.imagen-port > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.imagen-port:hover {
+  transform: translateX(-5px);
+}
+
+.hover-galeria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(273, 91%, 27%, 0.7);
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Rooster */
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
 }
 
 /*Cards*/
@@ -437,6 +400,8 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 5;
+  background-color: black;
+  padding: 20px;
 }
 
 .card {
